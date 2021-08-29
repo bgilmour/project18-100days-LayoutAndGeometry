@@ -9,8 +9,42 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        Example4View()
+    }
+}
+
+struct ExampleView: View {
+    var body: some View {
         Text("Hello, world!")
-            .padding()
+    }
+}
+
+struct Example4View: View {
+    var body: some View {
+        Color.red
+    }
+}
+
+struct Example3View: View {
+    var body: some View {
+        Text("Hello, world!")
+            .background(Color.red)
+            .padding(20)
+    }
+}
+
+struct Example2View: View {
+    var body: some View {
+        Text("Hello, world!")
+            .padding(20)
+            .background(Color.red)
+    }
+}
+
+struct Example1View: View {
+    var body: some View {
+        Text("Hello, world!")
+            .background(Color.red)
     }
 }
 
